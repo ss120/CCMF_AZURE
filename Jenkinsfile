@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Source Discovery') {
       steps {
-        bat 'C:\\Python27\\SMS_Jenkins\\Azure Scripts\\ConnectionTest.bat'
+        bat 'C:\\Python27\\SMS_Jenkins\\AzureScripts\\ConnectionTest.bat'
       }
     }
   }
