@@ -11,5 +11,10 @@ pipeline {
         bat 'C:\\Python27\\SMS_Jenkins\\AzureScripts\\Migration_script.bat'
       }
     }
+    stage('PostCheck') {
+      steps {
+        bat 'C:\\Python27\\SMS_Jenkins\\AzureScripts\\PostCheck.bat'
+      }
+    }
   }
 }
